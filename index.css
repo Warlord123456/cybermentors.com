@@ -1,0 +1,203 @@
+* {
+    padding : 0;
+    margin : 0;
+    text-decoration : none;
+    list-style : none;
+    box-sizing : border-box;
+}
+body {
+    font-family : montserrat;
+    background-image : url('pexels-pixabay-50711.jpg');
+}
+.icon-bar {
+  border-radius: 15px;  
+  width: 100%; 
+  background-color: #FFFDD0; 
+  overflow: auto; 
+}
+.icon-bar b {
+  font-family : montserrat;  
+  text-decoration: underline;  
+  border-radius: 15px;  
+  float: left; 
+  text-align: center; 
+  width: 20%;
+  color : red;
+  font-size : 35px;
+  padding : 8px 0;
+  font-weight : bold;
+}
+
+.icon-bar a {
+  border-radius: 10px;  
+  float: right;
+  text-align: left; 
+  width: 10%;
+  padding: 8px 0; 
+  transition:0.3;
+  color: red; 
+  font-size: 18px;
+  font-weight : bold; 
+}
+
+.icon-bar a:hover {  
+  border-radius: 50px;  
+  background-color: #00FF00; 
+}
+
+.active {
+  background-color: #FFFDD0; 
+}
+
+#center {
+    text-align : center;
+}
+.cover {
+    border-radius: 15px;
+    width : 900px;
+    height : 400px;
+    margin-top : 50px;
+    display : flex;
+}
+.box {
+    border-radius: 15px;
+    margin : 10px;
+    width : 520px;
+    height : 520px;
+    box-shadow : -1px 0 10px #000000;
+    align-items : center;
+    justify-content : center;
+    background-color : chartreuse;
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+img#computer {
+    border-radius: 15px;
+    text-align : center;
+    height : 200px;
+    width : 520px;
+}
+h2#head2 {
+    font-style : italic;
+    font-family : monotype corsiva;
+    text-align : center;
+    font-weight: bolder;
+}
+p#ehin {
+    font-style : italic;
+    font-family : monotypr corsiva;
+    font-weight : bold;
+    color : red;
+}
+.defensive {
+    width : 900px;
+    height : 400px;
+    margin-top : -390px;
+    display : flex;
+}
+.boxdefensive {
+    border-radius: 15px;
+    margin-left : 600px;
+    width : 320px;
+    height : 340px;
+    box-shadow : -1px 0 10px #000000;
+    align-items : center;
+    justify-content : center;
+    background-color : chartreuse;
+    background-repeat : no-repeat;
+    background-size : cover;
+    cursor : pointer;
+}
+img#defensive {
+    border-radius: 15px;
+    height : 200px;
+    width : 320px;
+}
+p#defense {
+    font-family : monotype corsiva;
+    font-size : medium;
+    font-weight : bold;
+    color : red;
+}
+h2#headdefensive {
+    font-family : monotype corsiva;
+    font-style : italic;
+    font-weight : bolder;
+    text-align : center;
+}
+.offensive {
+    width : 900px;
+    height : 400px;
+    margin-top : -400px;
+    display : flex;
+}
+.boxoffensive {
+    border-radius: 15px;
+    margin-left : 1000px;
+    width : 320px;
+    height : 340px;
+    box-shadow : -1px 0 10px #000000;
+    align-items : center;
+    justify-content : center;
+    background-color : chartreuse;
+    background-repeat : no-repeat;
+    background-size : cover;
+    cursor : pointer;
+}
+img#offensive {
+    border-radius: 15px;
+    height : 190px;
+    width : 320px;
+}
+p#offense {
+    font-family : monotype corsiva;
+    font-size : medium;
+    font-weight : bold;
+    color : red;
+}
+h2#headoffensive {
+    font-family : monotype corsiva;
+    font-style : italic;
+    font-weight : bolder;
+    text-align : center;
+}
+video#anonvdo {
+    border-radius: 15px;
+    height : 170px;
+    width : 300px;
+    margin-left : 990px;
+    margin-top : -10px;
+}
+p#Anonyvdo {
+    border-radius: 15px;
+    margin-left : 990px;
+    background-color : chartreuse;
+    width : 300px;
+    font-family : monotype corsiva;
+    font-style : italic;
+    font-weight : bolder;
+    font-size : medium;
+}
+.site {
+    background-color : black;
+
+}
+.fa {
+    border-radius: 15px;
+    padding : 17px;
+    font-size : 30px;
+    width : 50px;
+    text-align : center;
+    text-decoration : none;
+}
+.fa:hover {
+    opacity : 0.7;
+}
+.fa-instagram {
+    background-color : #F694C1;
+    color : whitesmoke;
+}
+.fa-github {
+    background-color : darkslateblue;
+    color : white;
+}
