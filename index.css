@@ -48,7 +48,11 @@ body {
 .active {
   background-color: #FFFDD0; 
 }
-
+@media screen and (max-width: 800px) {
+  .icon-bar, active {
+    width: 100%; 
+  }
+}
 #center {
     text-align : center;
 }
